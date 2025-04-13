@@ -1,0 +1,194 @@
+body {
+	background-color: #EEEEEE;
+	font-family: sans-serif;
+}
+
+h1, h2, h3, h4 {
+	margin: 0px;
+}
+
+p {
+	margin: 5px;
+}
+
+#redspec-img
+{
+    border:1px solid red;
+}
+
+#orange {
+	color: orange;
+}
+
+#blue {
+	color: blue;
+}
+
+#red {
+	color: red;
+}
+
+#purple {
+	color: purple;
+}
+
+#green {
+	color: green;
+}
+
+.header-div {
+	background-color: #FF6100;
+	color: white;
+	background-image: url("assets/images/style/yellow-orange-gradient.png");
+	background-repeat: no-repeat;
+	border:1px solid orange;
+	clear: both;
+	margin-bottom: 10px;
+	width: 900px;
+	-webkit-box-shadow: 3px 3px 0px #777777;
+    -moz-box-shadow: 3px 3px 0px #777777;
+}
+
+.header-logo {
+    text-decoration: none;
+    color: white;
+}
+
+.main-content {
+	width: 850px;
+	padding: 5px;
+	background-color: white;
+	border:1px solid #999999;
+	-webkit-box-shadow: 3px 3px 0px #777777;
+    -moz-box-shadow: 3px 3px 0px #777777;
+}
+
+.footer-div {
+	background-color: #0026F9;
+	color: white;
+	background-image: url("assets/images/style/blue-lightblue-gradient.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	border:1px solid #0094FF;
+	clear: both;
+	margin-top: 10px;
+	width: 900px;
+	-webkit-box-shadow: 3px 3px 0px #777777;
+    -moz-box-shadow: 3px 3px 0px #777777;
+}
+
+.alert-box {
+	
+	margin-bottom: 10px;
+	width: 480px;
+	background-color: #DD0000;
+	background-image: url("assets/images/style/alert-gradient.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	border:1px solid red;
+	color: white;
+	-webkit-box-shadow: 3px 3px 0px #777777;
+    -moz-box-shadow: 3px 3px 0px #777777;
+}
+
+.header-table {
+	color: white;
+	border: none;
+}
+
+.footer-table {
+	color: white;
+	border: none;
+}
+
+.alert-table {
+	color: white;
+	border: none;
+}
+
+#prebumbus-info {
+	padding: 5px;
+	background-color: white;
+	border:1px solid #EEEEEE;
+	margin: 5px;
+}
+
+#bumbus-info {
+	padding: 5px;
+	background-color: white;
+	border:1px solid #EEEEEE;
+	margin: 5px;
+}
+
+#monospace-font {
+    font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+}
+
+#grey-box {
+	padding: 5px;
+	background-color: white;
+	border:1px solid #EEEEEE;
+	margin: 5px 5px 15px 5px;
+}
+
+#unlinked-link {
+    background-color: #000000;
+    color: lightgray;
+}
+
+#orange-box {
+	padding: 5px;
+	background-color: white;
+	border:1px solid orange;
+	margin: 5px 5px 15px 5px;
+}
+
+#blue-box {
+	padding: 5px;
+	background-color: white;
+	border:1px solid blue;
+	margin: 5px 5px 15px 5px;
+}
+
+#purple-box {
+	padding: 5px;
+	background-color: white;
+	border:1px solid purple;
+    margin: 5px 5px 15px 5px;
+}
+
+#red-box {
+	padding: 5px;
+	background-color: white;
+	border:1px solid red;
+	margin: 5px 5px 15px 5px;
+}
+
+#green-box {
+	padding: 5px;
+	background-color: white;
+	border:1px solid green;
+	margin: 5px 5px 15px 5px;
+}
+
+
+#bumbus-computer {
+	padding: 5px;
+	background-color: white;
+	border:1px solid #EEEEEE;
+	margin: 5px;
+}
+
+#bumbus-iway {
+	padding: 5px;
+	background-color: white;
+	border:1px solid #EEEEEE;
+	margin: 5px;
+}
+
+#bumbus-end {
+	padding: 5px;
+	background-color: white;
+	border:1px solid #EEEEEE;
+	margin: 5px;
+}
