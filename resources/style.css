@@ -3,7 +3,6 @@ body {
 	background: linear-gradient(0deg, rgba(63, 63, 116, 1) 0%, rgba(167, 95, 162, 1) 100%);
 	font-family: sans-serif;
 	margin: 0px;
-	height: 99vh;
 	background-attachment: fixed;
 }
 
@@ -160,26 +159,4 @@ p {
 	background-color: white;
 	border:1px solid green;
 	margin: 5px 5px 15px 5px;
-}
-
-
-#bumbus-computer {
-	padding: 5px;
-	background-color: white;
-	border:1px solid #EEEEEE;
-	margin: 5px;
-}
-
-#bumbus-iway {
-	padding: 5px;
-	background-color: white;
-	border:1px solid #EEEEEE;
-	margin: 5px;
-}
-
-#bumbus-end {
-	padding: 5px;
-	background-color: white;
-	border:1px solid #EEEEEE;
-	margin: 5px;
 }
