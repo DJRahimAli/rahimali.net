@@ -39,7 +39,7 @@ p {
 .header-div {
 	background-color: #FF6100;
 	color: white;
-	background-image: url("assets/images/style/yellow-orange-gradient.png");
+	background-image: url("/assets/images/style/yellow-orange-gradient.png");
 	background-repeat: no-repeat;
 	border:1px solid orange;
 	clear: both;
@@ -66,7 +66,7 @@ p {
 .footer-div {
 	background-color: #0026F9;
 	color: white;
-	background-image: url("assets/images/style/blue-lightblue-gradient.png");
+	background-image: url("/assets/images/style/blue-lightblue-gradient.png");
 	background-repeat: no-repeat;
 	background-position: right;
 	border:1px solid #0094FF;
@@ -82,7 +82,7 @@ p {
 	margin-bottom: 10px;
 	width: 480px;
 	background-color: #DD0000;
-	background-image: url("assets/images/style/alert-gradient.png");
+	background-image: url("/assets/images/style/alert-gradient.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	border:1px solid red;
