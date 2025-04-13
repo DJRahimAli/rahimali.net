@@ -1,6 +1,11 @@
 body {
-	background-color: #EEEEEE;
+	background: #3F3F74;
+	background: linear-gradient(0deg, rgba(63, 63, 116, 1) 0%, rgba(167, 95, 162, 1) 100%);
 	font-family: sans-serif;
+	margin: 0px;
+	padding: 8px;
+	height: 100vh;
+	overflow: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -57,10 +62,10 @@ p {
 .main-content {
 	width: 850px;
 	padding: 5px;
-	background-color: white;
-	border:1px solid #999999;
-	-webkit-box-shadow: 3px 3px 0px #777777;
-    -moz-box-shadow: 3px 3px 0px #777777;
+	background-color: #b2669a;
+	color: white;
+	border:1px solid #76428a;
+
 }
 
 .footer-div {
@@ -106,28 +111,14 @@ p {
 	border: none;
 }
 
-#prebumbus-info {
-	padding: 5px;
-	background-color: white;
-	border:1px solid #EEEEEE;
-	margin: 5px;
-}
-
-#bumbus-info {
-	padding: 5px;
-	background-color: white;
-	border:1px solid #EEEEEE;
-	margin: 5px;
-}
-
 #monospace-font {
     font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
 }
 
 #grey-box {
 	padding: 5px;
-	background-color: white;
-	border:1px solid #EEEEEE;
+	background-color: #d1496c;
+	border:1px solid #ad3362;
 	margin: 5px 5px 15px 5px;
 }
 
