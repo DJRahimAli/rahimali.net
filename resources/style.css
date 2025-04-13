@@ -3,16 +3,17 @@ body {
 	background: linear-gradient(0deg, rgba(63, 63, 116, 1) 0%, rgba(167, 95, 162, 1) 100%);
 	font-family: sans-serif;
 	margin: 0px;
-	padding: 8px;
 	height: 100vh;
-	overflow: hidden;
+	background-attachment: fixed;
 }
 
 h1, h2, h3, h4 {
+	color: white;
 	margin: 0px;
 }
 
 p {
+	color: white;
 	margin: 5px;
 }
 
@@ -63,9 +64,8 @@ p {
 	width: 850px;
 	padding: 5px;
 	background-color: #b2669a;
-	color: white;
 	border:1px solid #76428a;
-
+	margin: 8px;
 }
 
 .footer-div {
