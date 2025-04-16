@@ -1,6 +1,6 @@
 body {
 	background: #3F3F74;
-	background: linear-gradient(0deg, rgba(63, 63, 116, 1) 0%, rgba(167, 95, 162, 1) 100%);
+	background: linear-gradient(0deg, rgba(63, 63, 116, 1) 0%, rgba(167, 95, 162, 1) 50%);
 	font-family: sans-serif;
 	margin: 0px;
 	background-attachment: fixed;
@@ -17,7 +17,7 @@ p {
 }
 
 hr {
-	color: #ad3362;
+	border-color: #ad3362;
 }
 
 #redspec-img
