@@ -1,30 +1,3 @@
-body {
-	background: #3F3F74;
-	background: linear-gradient(0deg, rgba(63, 63, 116, 1) 0%, rgba(167, 95, 162, 1) 50%);
-	font-family: sans-serif;
-	margin: 0px;
-	background-attachment: fixed;
-}
-
-h1, h2, h3, h4 {
-	color: white;
-	margin: 0px;
-}
-
-p {
-	color: white;
-	margin: 5px;
-}
-
-hr {
-	border-color: #ad3362;
-}
-
-#redspec-img
-{
-    border:1px solid red;
-}
-
 #orange {
 	color: orange;
 }
@@ -45,6 +18,10 @@ hr {
 	color: green;
 }
 
+#monospace-font {
+    font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+}
+
 .header-div {
 	background-color: #FF6100;
 	color: white;
@@ -63,12 +40,41 @@ hr {
     color: white;
 }
 
+h1, h2, h3, h4 {
+	color: white;
+	margin: 0px;
+}
+
+p {
+	color: white;
+	margin: 5px;
+}
+
+hr {
+	border-color: #ad3362;
+}
+
+body {
+	background: #3F3F74;
+	background: linear-gradient(0deg, rgba(63, 63, 116, 1) 0%, rgba(167, 95, 162, 1) 50%);
+	font-family: sans-serif;
+	margin: 0px;
+	background-attachment: fixed;
+}
+
 .main-content {
 	width: 850px;
 	padding: 5px;
 	background-color: #b2669a;
 	border:1px solid #76428a;
 	margin: 8px;
+}
+
+#box {
+	padding: 5px;
+	background-color: #d1496c;
+	border:1px solid #ad3362;
+	margin: 5px 5px 15px 5px;
 }
 
 .footer-div {
@@ -112,55 +118,4 @@ hr {
 .alert-table {
 	color: white;
 	border: none;
-}
-
-#monospace-font {
-    font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
-}
-
-#grey-box {
-	padding: 5px;
-	background-color: #d1496c;
-	border:1px solid #ad3362;
-	margin: 5px 5px 15px 5px;
-}
-
-#unlinked-link {
-    background-color: #000000;
-    color: lightgray;
-}
-
-#orange-box {
-	padding: 5px;
-	background-color: white;
-	border:1px solid orange;
-	margin: 5px 5px 15px 5px;
-}
-
-#blue-box {
-	padding: 5px;
-	background-color: white;
-	border:1px solid blue;
-	margin: 5px 5px 15px 5px;
-}
-
-#purple-box {
-	padding: 5px;
-	background-color: white;
-	border:1px solid purple;
-    margin: 5px 5px 15px 5px;
-}
-
-#red-box {
-	padding: 5px;
-	background-color: white;
-	border:1px solid red;
-	margin: 5px 5px 15px 5px;
-}
-
-#green-box {
-	padding: 5px;
-	background-color: white;
-	border:1px solid green;
-	margin: 5px 5px 15px 5px;
 }
