@@ -52,13 +52,11 @@ hr {
 }
 
 a:link {
-  color: #535399;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: #3f3f74;
   background-color: transparent;
   text-decoration: none;
 }
