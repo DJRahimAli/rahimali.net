@@ -75,7 +75,7 @@ a:active {
 
 body {
 	background: #3F3F74;
-	background: linear-gradient(0deg, rgba(63, 63, 116, 1) 0%, rgba(167, 95, 162, 1) 25%);
+	background: linear-gradient(0deg, rgba(63, 63, 116, 1) 0%, rgba(167, 95, 162, 1) 15%);
 	color: white;
 	font-family: sans-serif;
 	margin: 0px;
