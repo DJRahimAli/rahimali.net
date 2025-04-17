@@ -85,7 +85,7 @@ body {
 	padding: 5px;
 	background-color: #b2669a;
 	border:1px solid #76428a;
-	margin: 8px;
+	margin: 8px auto;
 }
 
 #box {
@@ -145,7 +145,7 @@ body {
 	width: 850px;
 	background-color: #b2669a;
 	border:1px solid #76428a;
-	margin: 8px;
+	margin: 8px auto;
 }
 
 .navbar a {
