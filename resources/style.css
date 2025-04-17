@@ -31,8 +31,6 @@
 	clear: both;
 	margin-bottom: 10px;
 	width: 900px;
-	-webkit-box-shadow: 3px 3px 0px #777777;
-    -moz-box-shadow: 3px 3px 0px #777777;
 }
 
 .header-logo {
@@ -51,6 +49,28 @@ p {
 
 hr {
 	border-color: #ad3362;
+}
+
+a:link {
+  color: #535399;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3f3f74;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 body {
@@ -87,8 +107,6 @@ body {
 	clear: both;
 	margin-top: 10px;
 	width: 900px;
-	-webkit-box-shadow: 3px 3px 0px #777777;
-    -moz-box-shadow: 3px 3px 0px #777777;
 }
 
 .alert-box {
@@ -101,8 +119,6 @@ body {
 	background-position: center;
 	border:1px solid red;
 	color: white;
-	-webkit-box-shadow: 3px 3px 0px #777777;
-    -moz-box-shadow: 3px 3px 0px #777777;
 }
 
 .header-table {
