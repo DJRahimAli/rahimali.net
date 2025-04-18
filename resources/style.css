@@ -1,41 +1,9 @@
-#orange {
-	color: orange;
-}
-
-#blue {
-	color: blue;
-}
-
-#red {
-	color: red;
-}
-
-#purple {
-	color: purple;
-}
-
-#green {
-	color: green;
-}
-
-#monospace-font {
-    font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
-}
-
-.header-div {
-	background-color: #FF6100;
+body {
+	background: #a75fa2;
+	background: linear-gradient(0deg, rgba(63, 63, 116, 1) 0%, rgba(167, 95, 162, 1) 15%);
 	color: white;
-	background-image: url("/assets/images/style/yellow-orange-gradient.png");
-	background-repeat: no-repeat;
-	border:1px solid orange;
-	clear: both;
-	margin-bottom: 10px;
-	width: 900px;
-}
-
-.header-logo {
-    text-decoration: none;
-    color: white;
+	font-family: sans-serif;
+	background-attachment: fixed;
 }
 
 h1, h2, h3, h4 {
@@ -71,15 +39,6 @@ a:active {
   text-decoration: underline;
 }
 
-body {
-	background: #3F3F74;
-	background: linear-gradient(0deg, rgba(63, 63, 116, 1) 0%, rgba(167, 95, 162, 1) 15%);
-	color: white;
-	font-family: sans-serif;
-	margin: 0px;
-	background-attachment: fixed;
-}
-
 .main-content {
 	width: 850px;
 	padding: 5px;
@@ -94,49 +53,6 @@ body {
 	border:1px solid #ad3362;
 	margin: 5px 5px 15px 5px;
 }
-
-.footer-div {
-	background-color: #0026F9;
-	color: white;
-	background-image: url("/assets/images/style/blue-lightblue-gradient.png");
-	background-repeat: no-repeat;
-	background-position: right;
-	border:1px solid #0094FF;
-	clear: both;
-	margin-top: 10px;
-	width: 900px;
-}
-
-.alert-box {
-	
-	margin-bottom: 10px;
-	width: 480px;
-	background-color: #DD0000;
-	background-image: url("/assets/images/style/alert-gradient.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	border:1px solid red;
-	color: white;
-}
-
-.header-table {
-	color: white;
-	border: none;
-}
-
-.footer-table {
-	color: white;
-	border: none;
-}
-
-.alert-table {
-	color: white;
-	border: none;
-}
-
-
-
-
 
 
 
