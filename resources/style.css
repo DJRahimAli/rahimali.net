@@ -65,6 +65,8 @@ a:active {
 }
 
 .navbar a {
+  display: flex;
+  
   float: left;
   font-size: 16px;
   color: white;
@@ -72,6 +74,30 @@ a:active {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+.navbar2{
+  display: flex;
+  background-color: #b2669a;
+  border:1px solid #76428a;
+  justify-content: center;
+  width: fit-content;
+  margin: 0px auto;
+}
+
+.navbarItem{
+  display: flex;
+}
+
+.navbarItem a {
+  text-decoration: none;
+  padding: 14px 16px;
+  color: white; 
+}
+
+.navbarItem a:active {
+  color: white;
+}
+
 
 .dropdown {
   float: left;
