@@ -20,23 +20,23 @@ hr {
 }
 
 a:link {
-  background-color: transparent;
-  text-decoration: none;
+	background-color: transparent;
+	text-decoration: none;
 }
 
 a:visited {
-  background-color: transparent;
-  text-decoration: none;
+	background-color: transparent;
+	text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 a:active {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
 }
 
 .main-content {
@@ -56,31 +56,31 @@ a:active {
 }
 
 .navbar{
-  display: flex;
-  background-color: #b2669a;
-  border:1px solid #76428a;
-  justify-content: center;
-  width: fit-content;
-  margin: 0px auto;
-  flex-wrap: wrap;
+	display: flex;
+	background-color: #b2669a;
+	border:1px solid #76428a;
+	justify-content: center;
+	width: fit-content;
+	margin: 0px auto;
+	flex-wrap: wrap;
 }
 
 .navbarItem{
-  display: flex;
+	display: flex;
 }
 
 .navbarItem a {
-  text-decoration: none;
-  padding: 14px 16px;
-  color: white; 
+	text-decoration: none;
+	padding: 14px 16px;
+	color: white; 
 }
 
 .navbarItem a:hover{
-  background-color: #d1496c;
+	background-color: #d1496c;
 }
 
 .navbarItem a:active {
-  color: red;
+	color: red;
 }
 
 
