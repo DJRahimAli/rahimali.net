@@ -46,7 +46,7 @@ a:active {
 	max-width: 850px;
 	padding: 5px;
 	background-color: #b2669a;
-	border:1px solid #76428a;
+	border:2px solid #76428a;
 	margin: 8px auto;
 }
 
@@ -60,7 +60,7 @@ a:active {
 .navbar{
 	display: flex;
 	background-color: #b2669a;
-	border:1px solid #76428a;
+	border: 2px solid #76428a;
 	justify-content: center;
 	width: fit-content;
 	margin: 0px auto;
