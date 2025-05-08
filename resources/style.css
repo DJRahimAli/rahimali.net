@@ -56,24 +56,19 @@ to define what kind of value it is with @property */
 
 body {
 	--PI: 3.1415;
-	--WAVE-COUNT: 1; /* number of waves to do over the element's width */
-	--TOTAL-ANGLE: calc(var(--WAVE-COUNT) * 2 * var(--PI)); /* one wave is 2PI radians */
 	--UNIT: 1px; /* we need to use the same unit for all calculations. Keep variables unit-less as long as possible, and only apply units when assigning to css properties */
 	--r: 8; /* radius in --UNITs of circle we'll use as reference */
-	--CONTAINER-WIDTH: 64; /* container's width in --UNITs */
 	
-	--calc-progress: calc(var(--progress) * var(--CONTAINER-WIDTH)); /* calculate progress */
-	--ROTATION-PER-LENGTH-UNIT: calc(var(--TOTAL-ANGLE) / var(--CONTAINER-WIDTH));
-	--alpha-reference-angle: calc(var(--ROTATION-PER-LENGTH-UNIT) * var(--calc-progress) * 1rad); /* current angle of reference circle */
-	--x: calc(-1 * var(--r) * cos(var(--alpha-reference-angle))); /* current x-position in --UNITs; multiply by -1 because in math positive values are upward, in css downwards */
-	--y: calc(-1 * var(--r) * sin(var(--alpha-reference-angle))); /* current y-position in --UNITs; multiply by -1 because in math positive values are upward, in css downwards */
+	--current-angle: calc(var(--progress) * 2 * var(--PI)); /* calculate angle at current 'time' */
+	--x: calc(-1 * var(--r) * cos(var(--current-angle))); /* current x-position in --UNITs; multiply by -1 because in math positive values are upward, in css downwards */
+	--y: calc(-1 * var(--r) * sin(var(--current-angle))); /* current y-position in --UNITs; multiply by -1 because in math positive values are upward, in css downwards */
 	
 	/* for calculations, we need to use x and y without units;
 	for the translate, we need them with units */
 	--x-with-unit: calc(var(--x) * var(--UNIT));
 	--y-with-unit: calc(var(--y) * var(--UNIT));
 	
-	animation: progress 3.5s linear infinite;
+	animation: progress 3.5s linear infinite; /*increase time to make slower*/
 	background-position: var(--x-with-unit) var(--y-with-unit);
 	
 	background-image: url("/assets/images/style/sTile.png");
