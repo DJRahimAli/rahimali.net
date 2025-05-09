@@ -1,4 +1,10 @@
+@font-face{
+    font-family: m6x11;
+    src: url("/assets/fonts/m6x11plus.ttf");
+}
+
 h1, h2, h3, h4, h5, h6 {
+	font-family: m6x11;
 	margin: 0px;
 }
 
