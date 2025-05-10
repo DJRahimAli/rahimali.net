@@ -6,10 +6,11 @@
 h1, h2, h3, h4, h5, h6 {
 	font-family: m6x11;
 	margin: 0px;
+	margin-bottom: 5px;
 }
 
 p {
-	margin: 5px;
+	margin: 0px;
 }
 
 hr {
