@@ -79,7 +79,7 @@ body {
 	
 	background-image: url("/assets/images/style/sTile.png");
 	image-rendering: pixelated;
-	background-size: 64px;
+	background-size: 96px;
 	background-repeat: repeat;
 	background-attachment: fixed;
 	color: white;
