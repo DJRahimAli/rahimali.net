@@ -41,7 +41,8 @@
     var t = setInterval(function() {
         if (window.goatcounter && window.goatcounter.visit_count) {
             clearInterval(t)
-            window.goatcounter.visit_count({append: 'body'})
+            window.goatcounter.visit_count({append: 'body', no_branding: true,
+			style: `div { border-color: #76428a;  border-radius: 0px; background-color: #b2669a; color: white; font-family: m6x11; }`})
         }
     }, 100)
 </script>
