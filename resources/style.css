@@ -1,3 +1,5 @@
+/* init */
+
 @font-face{
     font-family: m6x11;
     src: url("/assets/fonts/m6x11plus.ttf");
@@ -61,6 +63,8 @@ to define what kind of value it is with @property */
 	}
 }
 
+/* background */
+
 body {
 	--PI: 3.1415;
 	--UNIT: 1px; /* we need to use the same unit for all calculations. Keep variables unit-less as long as possible, and only apply units when assigning to css properties */
@@ -86,6 +90,8 @@ body {
 	color: white;
 	font-family: sans-serif;
 }
+
+/* main */
 
 @keyframes shake {
   0% { transform: translate(1px, 1px); }
@@ -128,6 +134,7 @@ body {
 	margin: 5px;
 }
 
+/* navbar */
 
 .navbar{
 	display: flex;
