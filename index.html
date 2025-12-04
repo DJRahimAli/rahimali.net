@@ -59,7 +59,7 @@
       }
 
       html {
-        background: #060612;
+        background: black;
       }
 
       body {
@@ -71,7 +71,6 @@
         min-height: fill-available;
         min-height: 100svh; /* Otherwise contents can be covered by an address bar in Safari on iOS 15 */
         min-width: 100vw;
-        background:radial-gradient( 56.63% 56.63% at 50% 43.37%, #1c1726 0%, #060612 100%);
         display: flex;
         flex-direction: column;
         overflow-x: hidden;
@@ -97,10 +96,7 @@
         border: 0px none;
         background-color: black;
         position: relative;
-        transition: opacity 5s ease-in;
-		-webkit-transition: opacity 5s ease-in;
         opacity: 0;
-        filter: blur(0) grayscale(0);
         margin-top: auto;
         margin-bottom: auto;
         image-rendering: optimizeSpeed;             /* Older versions of FF          */
@@ -111,6 +107,7 @@
         -ms-interpolation-mode: nearest-neighbor;   /* IE                            */        
       }
 
+      /* keeping this initial fade-in because i think it looks nice - rahim */
       canvas.active {
         animation-name: fadeIn;
         animation-duration: 2s;
@@ -160,8 +157,8 @@
         -o-animation: rotation 0.8s linear infinite;
         animation: rotation 0.8s linear infinite;
 
-        border: 5px solid #bdff00;
-        border-top: 5px solid #719900;
+        border: 5px solid white;
+        border-top: 5px solid black;
         border-radius: 100%;
       }
 
@@ -187,7 +184,7 @@
         display: inline-block;
         vertical-align: top;
         font-weight: bold;
-        color: white;
+        color: black;
       }
 
       #progress {
