@@ -184,7 +184,7 @@
         display: inline-block;
         vertical-align: top;
         font-weight: bold;
-        color: black;
+        color: white;
       }
 
       #progress {
@@ -479,7 +479,7 @@
     </div>
     <div class="loading">
       <div class="spinner" id="spinner"></div>
-      <div class="emscripten" id="status">Downloading...</div>
+      <div class="emscripten" id="status"></div>
 
       <progress value="0" max="100" id="progress" hidden="1"></progress>
     </div>
@@ -643,6 +643,7 @@
             progressElement.hidden = false;
             spinnerElement.hidden = false;
           } else {
+            text = null;
             progressElement.value = null;
             progressElement.max = null;
             progressElement.hidden = true;
