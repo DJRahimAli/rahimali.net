@@ -485,8 +485,6 @@
       <div class="emscripten" id="status">Downloading...</div>
 
       <progress value="0" max="100" id="progress" hidden="1"></progress>
-      <img id="QRCode" class="qrCode" src="runner.svg" alt="URL QR Code" hidden="1"></img>
-      <img id="QR2Code" class="qrCode" src="runnerLocal.svg" alt="URL QR2 Code" hidden="1"></img>
     </div>
 
     <script id="tick-worker" type="javascript/worker">
@@ -867,22 +865,11 @@
       }
 
       function pause() { // Don't change the name - GX Mobile calls it when the app becomes inactive.
-        if (!canvasElement.classList.contains("active")) { // Wait for the canvas to load.
-          return
-        }
-        
-        GM_pause();
-        pauseMenu.hidden = false;
-        canvasElement.classList.add("paused");
+		return
       }
 
       function resume() {
-        GM_unpause();
-        pauseMenu.hidden = true;
-        canvasElement.classList.remove("paused");
-        canvasElement.classList.add("unpaused");
-        enterFullscreenIfSupported();
-        lockOrientationIfSupported();
+		return
       }
 
       function quitIfSupported() {
