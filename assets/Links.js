@@ -544,7 +544,7 @@ var JSON_game=
 		"gx_mod_wallpaper":"gx_mod_wallpaper","filt+fx":"filt+fx","nullish":"nullish","login_sso":"login_sso","operagx-yyc":"operagx-yyc","gm-auth-login":"gm-auth-login","mqtt":"mqtt","audio-fx":"audio-fx","intellisense":"intellisense","test":"test","custom_env":"custom_env","filt+fx":"filt+fx","gx_mod_wallpaper":"gx_mod_wallpaper","gx_mod_gamestrip":"gx_mod_gamestrip","live_wallpaper_subscription":"live_wallpaper_subscription","code-editor":"code-editor","strip_unused_assets":"strip_unused_assets","update-process":"update-process","package-manager":"package-manager","prefab-library":"prefab-library","svg":"svg"	}
 	,Options:
 	{
-		debugMode:!1,AssetCompilerMajorVersion:2,AssetCompilerMinorVersion:0,AssetCompilerBuildVersion:0,GameSpeed:60,DrawColour:4294967295,xscreensize:256,yscreensize:512,gameId:0,gameGuid:"5a72a3c0-3517-4205-aaa9-287ab8e1f9c5",fullScreen:!1,interpolatePixels:!1,showCursor:!0,scale:1,allowFullScreenKey:!1,freezeOnLostFocus:!1,showLoadingBar:!1,displayErrors:!1,writeErrors:!1,abortErrors:!1,variableErrors:!0,outputDebugToConsole:!1,WebGL:2,WebGLPreserveDrawingBuffer:0,CollisionCompatibility:!1,LegacyPrimitiveDrawing:!0,UseNewAudio:!0,GameDir:"assets",Config:"Default",ViewColour:0,CreateEventOrder:!1,UseParticles:!1,UseBuiltinFont:!1,LocalRunAlert:!0,crc:0,ProjectName:"Links",md5:[89,8,37,0,0,0,0,0,0,0,0,0,0,0,0,0],MajorVersion:1,MinorVersion:0,BuildVersion:0,RevisionVersion:0,DisplayName:"Rahim Ali's Links Website",UseFBExtension:!1,tm:1764838800,AllowStatistics:"True"	}
+		debugMode:!1,AssetCompilerMajorVersion:2,AssetCompilerMinorVersion:0,AssetCompilerBuildVersion:0,GameSpeed:60,DrawColour:4294967295,xscreensize:256,yscreensize:512,gameId:0,gameGuid:"5a72a3c0-3517-4205-aaa9-287ab8e1f9c5",fullScreen:!1,interpolatePixels:!1,showCursor:!0,scale:1,allowFullScreenKey:!1,freezeOnLostFocus:!1,showLoadingBar:!1,displayErrors:!1,writeErrors:!1,abortErrors:!1,variableErrors:!0,outputDebugToConsole:!1,WebGL:2,WebGLPreserveDrawingBuffer:0,CollisionCompatibility:!1,LegacyPrimitiveDrawing:!0,UseNewAudio:!0,GameDir:"assets",Config:"Default",ViewColour:0,CreateEventOrder:!1,UseParticles:!1,UseBuiltinFont:!1,LocalRunAlert:!0,crc:0,ProjectName:"Links",md5:[89,8,37,0,0,0,0,0,0,0,0,0,0,0,0,0],MajorVersion:1,MinorVersion:0,BuildVersion:0,RevisionVersion:0,DisplayName:"Rahim Ali's Links Website",UseFBExtension:!1,tm:1764987393,AllowStatistics:"True"	}
 }
 ;
 
@@ -693,9 +693,9 @@ function gml_Object_oBorder_Draw_0(_inst,_other)
 	draw_self(_inst);
 	draw_set_color(0);
 	draw_rectangle(_inst.bbox_left,0,(-1),g_pBuiltIn.room_height,false);
-	draw_rectangle(yyfplus(__yy_gml_errCheck(_inst.bbox_right),1),0,g_pBuiltIn.room_width,g_pBuiltIn.room_height,false);
+	draw_rectangle(_inst.bbox_right,0,g_pBuiltIn.room_width,g_pBuiltIn.room_height,false);
 	draw_rectangle(0,_inst.bbox_top,g_pBuiltIn.room_width,(-1),false);
-	draw_rectangle(0,yyfplus(__yy_gml_errCheck(_inst.bbox_bottom),1),g_pBuiltIn.room_width,g_pBuiltIn.room_height,false);
+	draw_rectangle(0,_inst.bbox_bottom,g_pBuiltIn.room_width,g_pBuiltIn.room_height,false);
 	draw_set_color(16777215);
 }
 
