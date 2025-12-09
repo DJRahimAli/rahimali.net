@@ -37,15 +37,28 @@
 </html>
 
 <!-- GoatCounter visitor counter-->
+<div>Number of visitors: <div id="stats"></div></div>
+
 <script>
-    var t = setInterval(function() {
-        if (window.goatcounter && window.goatcounter.visit_count) {
-            clearInterval(t)
-            window.goatcounter.visit_count({append: 'body', no_branding: true,
-			style: `div { border-color: #76428a;  border-radius: 0px; background-color: #b2669a; color: white; font-family: m6x11; }`})
-        }
-    }, 100)
+    let r = new XMLHttpRequest();
+    r.addEventListener('load', function() {
+        document.querySelector('#stats').innerText = JSON.parse(this.responseText).count
+    })
+
+    // Should be exact (encoded) path as it appears in the UI. This uses
+    // GoatCounter's count.js
+    let path = window.goatcounter.get_data()['p']
+
+    // Or alternatively, do it manually. Will return HTTP status 404 if the
+    // path is not found).
+    //let path = location.pathname
+
+    r.open('GET', 'https://counter.rahimali.net/count/' + encodeURIComponent(path) + '.json')
+	console.log("Hello world!"); 
+	console.log(encodeURIComponent(path));
+    r.send()
 </script>
+
 <!-- GoatCounter -->
 <script data-goatcounter="https://counter.rahimali.net/count"
 		async src="/resources/scripts/count.js"></script>
