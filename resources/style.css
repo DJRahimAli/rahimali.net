@@ -21,22 +21,22 @@ hr {
 
 a:link {
 	background-color: transparent;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:visited {
 	background-color: transparent;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:active {
 	color: red;
 	background-color: transparent;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .prevent-select {
