@@ -37,9 +37,9 @@
 			</div>
 			
 			<!-- Related page -->
-			<div class="prevent-select related-page">
-				<h2>Related Page</h2>
-				<div class="related-page-content">
+			<div class="prevent-select relatedPage">
+				<h2>Related pages:</h2>
+				<div class="relatedPage-content">
 					<a href="#misc">Misc</a>
 				</div>
 			</div>
@@ -47,12 +47,25 @@
 </html>
 
 <!-- GoatCounter visitor counter-->
-<div>Number of visitors: <div id="stats"></div></div>
+<div class="prevent-select visitorCounter">
+	<h2>Views for this page:</h2>
+	<div class="prevent-select visitorCounter-content">
+		<a id="stats"></a>
+	</div>
+</div>
 
 <script>
+	function removeSpaces(x) {
+		return x.replace(/\s/g, '');
+	}
+
+	function numberWithCommas(x) {
+		return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+	}
+
     let r = new XMLHttpRequest();
     r.addEventListener('load', function() {
-        document.querySelector('#stats').innerText = JSON.parse(this.responseText).count
+        document.querySelector('#stats').innerText = numberWithCommas(removeSpaces(JSON.parse(this.responseText).count));
     })
 
     // Should be exact (encoded) path as it appears in the UI. This uses
