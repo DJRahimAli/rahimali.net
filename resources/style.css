@@ -1,5 +1,4 @@
 /* init */
-
 @font-face{
     font-family: m6x11;
     src: url("/assets/fonts/m6x11plus.ttf");
@@ -45,9 +44,7 @@ a:active {
 	user-select: none; /* Standard syntax */
 }
 
-/* create a variable that holds the progress percentage
-you can't animate custom properties by default; you have
-to define what kind of value it is with @property */
+/* background */
 @property --progress {
 	initial-value: 0;
 	inherits: false;
@@ -62,8 +59,6 @@ to define what kind of value it is with @property */
 		--progress: 1;
 	}
 }
-
-/* background */
 
 body {
 	--PI: 3.1415;
@@ -92,7 +87,6 @@ body {
 }
 
 /* main */
-
 @keyframes shake {
   0% { transform: translate(1px, 1px); }
   10% { transform: translate(-1px, -2px); }
@@ -135,7 +129,6 @@ body {
 }
 
 /* navbar */
-
 .navbar{
 	display: flex;
 	background-color: #b2669a;
