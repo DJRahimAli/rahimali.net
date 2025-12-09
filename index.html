@@ -61,6 +61,9 @@
 		return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
 	}
 
+	//visitor counter text before the json is loaded
+	document.querySelector('#stats').innerText = "........"
+
     let r = new XMLHttpRequest();
     r.addEventListener('load', function() {
         document.querySelector('#stats').innerText = numberWithCommas(removeSpaces(JSON.parse(this.responseText).count));
