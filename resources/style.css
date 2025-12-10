@@ -85,6 +85,10 @@ a:active {
 	}
 }
 
+html, body {
+    margin: 0px;
+}
+
 body {
 	--PI: 3.1415;
 	--UNIT: 1px; /* we need to use the same unit for all calculations. Keep variables unit-less as long as possible, and only apply units when assigning to css properties */
@@ -109,7 +113,6 @@ body {
 	background-attachment: fixed;
 	color: white;
 	font-family: sans-serif;
-	margin: auto;
 }
 
 /* main */
@@ -142,8 +145,8 @@ body {
 
 .relatedPages {
 	width: auto;
-	max-width: fit-content;
-	padding: 0px 16px;
+	max-width: 200px;
+	padding: 0px 12px;
 	background-color: #b2669a;
 	border:4px solid #76428a;
 	margin: 0px auto;
