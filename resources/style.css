@@ -44,6 +44,7 @@ a {
 }
 
 a:link {
+	color: rgb(60, 60, 235);
 	background-color: transparent;
 	text-decoration: none;
 }
@@ -58,7 +59,7 @@ a:hover {
 }
 
 a:active {
-	color: red;
+	color: rgb(255, 50, 50);
 	background-color: transparent;
 	text-decoration: underline;
 }
@@ -211,7 +212,7 @@ body {
 }
 
 .navbarItem a:active, .navbarDropdown a:active {
-	color: red;
+	color: rgb(255, 40, 40);
 }
 
 .navbarDropdown-Content {
