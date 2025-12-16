@@ -162,14 +162,7 @@ body {
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.content {
-	padding: 10px;
-	background-color: #d1496c;
-	border:2px solid #ad3362;
-	margin: 5px;
-}
-
-.relatedPages {
+.box {
 	width: auto;
 	max-width: fit-content;
 	padding: 0px 12px;
@@ -180,7 +173,14 @@ body {
 	text-align: center;
 }
 
-.relatedPages-content {
+.content {
+	padding: 10px;
+	background-color: #d1496c;
+	border:2px solid #ad3362;
+	margin: 5px;
+}
+
+.content-box {
 	width: auto;
 	max-width: fit-content;
 	padding: 5px 16px;
