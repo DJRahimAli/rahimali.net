@@ -37,7 +37,7 @@ hr {
 
 hr.short {
 	border: 1px solid #ad3362;
-	width: 160px;
+	max-width: 160px;
 }
 
 hr.purple {
