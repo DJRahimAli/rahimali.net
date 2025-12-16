@@ -174,10 +174,10 @@ body {
 }
 
 .content {
-	padding: 10px;
+	padding: 10px 10px 150px 10px;
 	background-color: #d1496c;
 	border:2px solid #ad3362;
-	margin: 5px;
+	margin: 4px 5px auto 5px;
 }
 
 .content-box {
