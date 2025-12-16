@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-	<script type="text/javascript" src="resources/scripts/includeHTML.js"></script>
-	
 	<head>
 		<meta charset="UTF-8">
 		<title>Rahim Ali's Website</title>
@@ -12,7 +9,7 @@
 	
 	<body>
 			<!-- Top of page -->
-			<div w3-include-html="includes/header.html"></div>
+			<script type="text/javascript" src="resources/scripts/includes/header.js"></script>
 			
 			<!-- Main content -->
 			<div class="main">
@@ -34,17 +31,7 @@
 			</div>
 			<br>
 			<!-- Visitor counter -->
-			<div class="prevent-select relatedPages">
-				<h2>Total page views:</h2>
-				<div class="relatedPages-content">
-					<p id="stats"></p>
-				</div>
-			</div>
-			
-			<!-- Include html -->
-			<script>
-				includeHTML();
-			</script> 
+			<script type="text/javascript" src="resources/scripts/includes/visitorcounter.js"></script>
 	</body>
 </html>
 
