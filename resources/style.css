@@ -174,7 +174,8 @@ body {
 }
 
 .content {
-	padding: 10px 10px 150px 10px;
+	max-width: 256px;
+	padding: 10px;
 	background-color: #d1496c;
 	border:2px solid #ad3362;
 	margin: 4px 5px auto 5px;
