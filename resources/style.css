@@ -7,12 +7,12 @@
 h1, h2, h3, h4, h5, h6 {
 	font-family: m6x11;
 	margin: 0px;
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 	text-shadow: 1px 1px 0px rgba(0,0,0,0.35);
 }
 
 p {
-	margin: 0px;
+	margin: 4px;
 	text-shadow: 0.5px 0.5px 0px rgba(0,0,0,0.35);
 }
 
@@ -26,22 +26,22 @@ a {
 
 a:link {
 	background-color: transparent;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:visited {
 	background-color: transparent;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:active {
 	color: red;
 	background-color: transparent;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .prevent-select {
