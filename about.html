@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 	<head>
 		<meta charset="UTF-8">
 		<title>Rahim Ali's Website</title>
@@ -7,30 +7,34 @@
 		<link rel="stylesheet" href="resources/style.css">
 	</head>
 	
-	<body>
+	<body style="display: flex; flex-direction: column;">
+			<!-- Global variables -->
+			<script type="text/javascript" src="resources/scripts/globals.js"></script>
+			
 			<!-- Top of page -->
 			<script type="text/javascript" src="resources/scripts/includes/header.js"></script>
 			
 			<!-- Main content -->
-			<div class="main">
-				<h1>Hello,</h1>
-				<div class="content">
-					<p>My name is Rahim Ali, I am a Game Developer, Programmer, Artist, Musician and 3D Animator from the UK.</p>
-					<hr>
-					<p>test</p>
+			<div class="main" style="display: flex; flex-wrap: wrap;">
+				<div>
+					<h1>Hello,</h1>
+					<div class="content">
+						<p>My name is Rahim Ali, <br>I am a Game Developer, Programmer, Artist, Musician and 3D Animator from the UK.</p>
+					</div>
 				</div>
 			</div>
 			
 			<!-- Related pages -->
-			<div class="prevent-select box">
-				<h2>Related pages:</h2>
-				<div class="content-box">
-					<a href="#misc">Misc</a>
-				</div>
-			</div>
-			<br>
+			<script>
+				relatedpage = "#misc"
+				relatedpageName = "Misc"
+			</script>
+			<script type="text/javascript" src="resources/scripts/includes/relatedpages.js"></script>
+			
 			<!-- Visitor counter -->
-			<script type="text/javascript" src="resources/scripts/includes/visitorcounter.js"></script>
+			<div style="margin-top: auto; margin-bottom: 8px;">
+				<script type="text/javascript" src="resources/scripts/includes/visitorcounter.js"></script>
+			</div>
 	</body>
 </html>
 
