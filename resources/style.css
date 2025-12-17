@@ -139,13 +139,14 @@ body {
 	background-attachment: fixed;
 	color: white;
 	font-family: sans-serif;
+	height: 100vh;
 }
 
 /* main */
 .logo {
 	display: block;
 	width: 192px;
-	margin: 8px auto;
+	margin: 0px auto 8px auto;
 }
 
 .logo:hover {
