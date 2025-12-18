@@ -1,2 +1,4 @@
-relatedpage = "Unset"
-relatedpageName = "NameUnset"
+relatedpages = 
+[
+	["Unset", "NameUnset"]
+]
