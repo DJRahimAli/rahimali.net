@@ -1,4 +1,4 @@
-var relatedpagesLength = relatedpages.length;
+const relatedpagesLength = relatedpages.length;
 
 var htmlString = '<a href="' + relatedpages[0][0] + '">' + relatedpages[0][1] + '</a>'
 
