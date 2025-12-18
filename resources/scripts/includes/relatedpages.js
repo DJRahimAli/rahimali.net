@@ -4,7 +4,7 @@ var htmlString = '<a href="' + relatedpages[0][0] + '">' + relatedpages[0][1] + 
 
 // add more relatedpages to the htmlString if there are more than one in the array (var i = 1;)
 for (var i = 1; i < relatedpagesLength; i++) {
-	htmlString += ', <a href="' + relatedpages[i][0] + '">' + relatedpages[i][1] + '</a>'
+	htmlString += '<a>, </a><a href="' + relatedpages[i][0] + '">' + relatedpages[i][1] + '</a>'
 }
 
 document.write('<div class="prevent-select box" style="margin-top: 0px;">\
