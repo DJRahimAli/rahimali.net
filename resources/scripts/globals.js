@@ -1,4 +1,4 @@
-relatedpages = 
+var relatedpages = 
 [
 	["Unset", "NameUnset"]
 ]
