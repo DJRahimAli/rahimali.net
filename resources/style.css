@@ -153,6 +153,14 @@ body {
 	animation: shake 0.25s;
 }
 
+.linkicon {
+	image-rendering: auto;
+	float: left;
+	margin: 1px 4px 0px 0px;
+	width: 16px;
+	height: 16px;
+}
+
 .main {
 	width: auto;
 	max-width: fit-content;
@@ -185,7 +193,7 @@ body {
 .content-box {
 	width: auto;
 	max-width: fit-content;
-	padding: 5px 16px;
+	padding: 5px 10px;
 	background-color: #d1496c;
 	border:2px solid #ad3362;
 	margin: 4px auto;
