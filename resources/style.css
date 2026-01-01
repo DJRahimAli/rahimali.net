@@ -156,7 +156,8 @@ body {
 .linkicon {
 	image-rendering: auto;
 	float: left;
-	margin: 1px 4px 0px 0px;
+	padding-right: 4px;
+	margin-top: 1px;
 	width: 16px;
 	height: 16px;
 }
