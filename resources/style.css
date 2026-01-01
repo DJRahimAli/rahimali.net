@@ -155,11 +155,18 @@ body {
 
 .linkicon {
 	image-rendering: auto;
-	float: left;
-	padding-right: 4px;
-	margin-top: 1px;
 	width: 16px;
 	height: 16px;
+}
+
+.linkiconBackground {
+	width: 16px;
+	height: 16px;
+	
+	padding: 4px;
+	margin: 0px;
+	background-color: #ad3362;
+ 	border-radius: 15%;
 }
 
 .main {
