@@ -1,4 +1,3 @@
-var relatedpages = 
-[
+var relatedpages = [
 	["Unset", "NameUnset"]
-]
+];
