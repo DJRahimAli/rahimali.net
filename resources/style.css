@@ -174,20 +174,6 @@ body {
 	text-align: center;
 }
 
-.boxBackground {
-	display: flex;
-	width: auto;
-	max-width: fit-content;
-	height: auto;
-	max-height: fit-content;
-
-	padding: 4px;
-	margin: 4px;
-	background-color: #dddddd;
-	border:2px solid #cecece;
- 	border-radius: 1px;
-}
-
 .content {
 	padding: 10px;
 	background-color: #d1496c;
@@ -203,6 +189,20 @@ body {
 	background-color: #d1496c;
 	border:2px solid #ad3362;
 	margin: 4px auto;
+}
+
+.content-background {
+	display: flex;
+	width: auto;
+	max-width: fit-content;
+	height: auto;
+	max-height: fit-content;
+
+	padding: 4px;
+	margin: 4px;
+	background-color: #dddddd;
+	border:2px solid #cecece;
+ 	border-radius: 1px;
 }
 
 /* linkicon */
