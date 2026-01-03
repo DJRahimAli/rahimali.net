@@ -153,22 +153,6 @@ body {
 	animation: shake 0.25s;
 }
 
-.linkicon {
-	image-rendering: auto;
-	width: 16px;
-	height: 16px;
-}
-
-.linkiconBackground {
-	width: 16px;
-	height: 16px;
-	
-	padding: 4px;
-	margin: 0px;
-	background-color: #ad3362;
- 	border-radius: 15%;
-}
-
 .main {
 	width: auto;
 	max-width: fit-content;
@@ -190,6 +174,20 @@ body {
 	text-align: center;
 }
 
+.boxBackground {
+	display: flex;
+	width: auto;
+	max-width: fit-content;
+	height: auto;
+	max-height: fit-content;
+
+	padding: 4px;
+	margin: 4px;
+	background-color: #dddddd;
+	border:2px solid #cecece;
+ 	border-radius: 1px;
+}
+
 .content {
 	padding: 10px;
 	background-color: #d1496c;
@@ -205,6 +203,25 @@ body {
 	background-color: #d1496c;
 	border:2px solid #ad3362;
 	margin: 4px auto;
+}
+
+/* linkicon */
+.linkicon {
+	display: flex;
+	image-rendering: auto;
+	width: 16px;
+	height: 16px;
+}
+
+.linkiconBackground {
+	display: flex;
+	width: 16px;
+	height: 16px;
+	
+	padding: 4px;
+	margin: 0px;
+	background-color: #ad3362;
+ 	border-radius: 15%;
 }
 
 /* navbar */
