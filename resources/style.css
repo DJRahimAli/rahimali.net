@@ -44,6 +44,11 @@ hr.purple {
 	border: 1px solid #76428a;
 }
 
+hr.nav {
+	border: 2px solid #ad3362;
+	margin: 0px;
+}
+
 a {
 	text-shadow: 0.5px 0.5px 0px rgba(0,0,0,0.35);
 }
@@ -285,7 +290,7 @@ body {
 
 .navbarDropdown-Content a {
 	float: none;
-	padding: 14px 12px;
+	padding: 12px 12px;
 	text-decoration: none;
 	display: block;
 	text-align: left;
