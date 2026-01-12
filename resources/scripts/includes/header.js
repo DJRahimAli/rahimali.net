@@ -7,8 +7,8 @@ document.write('<!-- Top of page -->\
 		<a href="#blog">Blog</a>\
 		<a href="about">About</a>\
 		<div class="navbarDropdown">\
-			<button class="navbarDropdown-Button">Misc\
-				<i class="fa fa-caret-down"></i>\
+			<button class="navbarDropdown-Button">\
+				Misc <i class="fa fa-caret-down"></i>\
 			</button>\
 			<div class="navbarDropdown-Content">\
 				<a href="#">Link 1</a>\
