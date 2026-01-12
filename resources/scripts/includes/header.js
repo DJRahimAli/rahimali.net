@@ -1,17 +1,22 @@
-document.write('<div style="padding-top: 8px;">\
+document.write('<!-- Top of page -->\
+<div style="padding-top: 8px;">\
 	<img src="/assets/images/style/sLogo.png" class="prevent-select logo">\
 	<!-- Navigation bar -->\
 	<div class="prevent-select navbar">\
-		<div class="navbarItem"><a href="/">Home</a></div>\
-		<div class="navbarItem"><a href="#blog">Blog</a></div>\
+		<a href="/">Home</a>\
+		<a href="#blog">Blog</a>\
+		<a href="about">About</a>\
 		<div class="navbarDropdown">\
-			<a href="#misc">Misc</a>\
+			<button class="navbarDropdown-Button">Misc\
+				<i class="fa fa-caret-down"></i>\
+			</button>\
 			<div class="navbarDropdown-Content">\
 				<a href="#">Link 1</a>\
+			<hr class="nav">\
 				<a href="#">Link 2</a>\
+			<hr class="nav">\
 				<a href="#">Link 3</a>\
 			</div>\
 		</div>\
-		<div class="navbarItem"><a href="about">About</a></div>\
 	</div>\
 </div>');
