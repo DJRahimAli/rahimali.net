@@ -38,6 +38,8 @@ hr {
 hr.short {
 	border: 1px solid #ad3362;
 	max-width: 150px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 hr.purple {
