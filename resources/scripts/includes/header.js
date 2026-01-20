@@ -4,7 +4,7 @@ document.write('<!-- Top of page -->\
 	<!-- Navigation bar -->\
 	<div class="prevent-select navbar">\
 		<a href="/">Home</a>\
-		<a href="#blog">Blog</a>\
+		<a href="blog">Blog</a>\
 		<a href="about">About</a>\
 		<div class="navbarDropdown">\
 			<button class="navbarDropdown-Button">\
