@@ -76,6 +76,16 @@ a:active {
 	text-decoration: underline;
 }
 
+a.blog {
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 0.5px 0.5px 0px rgba(0,0,0,0.35);
+}
+
+a.blog:active {
+	color: rgb(255, 50, 50);
+}
+
 .prevent-select {
 	-webkit-user-select: none; /* Safari */
 	-ms-user-select: none; /* IE 10 and IE 11 */
@@ -280,7 +290,7 @@ body {
 }
 
 .navbar a:active, .navbarDropdown a:active {
-	color: rgb(255, 60, 60);
+	color: rgb(255, 50, 50);
 }
 
 .navbarDropdown-Content {
