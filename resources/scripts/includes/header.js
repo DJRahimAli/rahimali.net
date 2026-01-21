@@ -4,8 +4,8 @@ document.write('<!-- Top of page -->\
 	<!-- Navigation bar -->\
 	<div class="prevent-select navbar">\
 		<a href="/">Home</a>\
-		<a href="blog">Blog</a>\
-		<a href="about">About</a>\
+		<a href="/blog">Blog</a>\
+		<a href="/about">About</a>\
 		<div class="navbarDropdown">\
 			<button class="navbarDropdown-Button">\
 				Misc <i class="fa fa-angle-down"></i>\
