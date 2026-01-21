@@ -7,7 +7,7 @@ var audioContext = new AudioContext();
 
 function loadSound(name,success,err) {
 	var request = new XMLHttpRequest();
-	request.open('GET', 'assets/sounds/'+name+'.wav');
+	request.open('GET', '/assets/sounds/'+name+'.wav');
 	request.responseType = 'arraybuffer';
 	request.onload = function() {
 		audioContext.decodeAudioData(request.response, function(buffer) {
