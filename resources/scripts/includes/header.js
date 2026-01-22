@@ -12,7 +12,9 @@ document.write('<!-- Top of page -->\
 				Misc <i class="fa fa-angle-down"></i>\
 			</button>\
 			<div class="navbarDropdown-Content">\
-				<a href="#">Timeline</a>\
+				<a href="/portfolio">Portfolio</a>\
+			<hr class="nav">\
+				<a href="/portfolio/timeline">Timeline</a>\
 			<hr class="nav">\
 				<a href="/legacy/">Legacy Site</a>\
 			</div>\
