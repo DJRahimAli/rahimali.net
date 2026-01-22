@@ -11,7 +11,7 @@ document.write('<!-- Top of page -->\
 				Misc <i class="fa fa-angle-down"></i>\
 			</button>\
 			<div class="navbarDropdown-Content">\
-				<a href="#">Link 1</a>\
+				<a href="/legacy">Legacy Site</a>\
 			<hr class="nav">\
 				<a href="#">Link 2</a>\
 			<hr class="nav">\
