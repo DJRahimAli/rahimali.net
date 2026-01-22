@@ -251,8 +251,8 @@ body {
 .blogimageBackground {
 	display: flex;
 	
-	min-width: 64px;
-	max-width: 64px;
+	min-width: 96px;
+	max-width: 96px;
 
 	min-height: 64px;
 	max-height: 64px;
