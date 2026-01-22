@@ -11,11 +11,11 @@ document.write('<!-- Top of page -->\
 				Misc <i class="fa fa-angle-down"></i>\
 			</button>\
 			<div class="navbarDropdown-Content">\
-				<a href="/legacy">Legacy Site</a>\
+				<a href="#">Gallery</a>\
 			<hr class="nav">\
-				<a href="#">Link 2</a>\
+				<a href="#">Timeline</a>\
 			<hr class="nav">\
-				<a href="#">Link 3</a>\
+				<a href="/legacy/">Legacy Site</a>\
 			</div>\
 		</div>\
 	</div>\
