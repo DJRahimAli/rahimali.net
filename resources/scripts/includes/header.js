@@ -5,14 +5,13 @@ document.write('<!-- Top of page -->\
 	<div class="prevent-select navbar">\
 		<a href="/">Home</a>\
 		<a href="/blog">Blog</a>\
+		<a href="/gallery">Gallery</a>\
 		<a href="/about">About</a>\
 		<div class="navbarDropdown">\
 			<button class="navbarDropdown-Button">\
 				Misc <i class="fa fa-angle-down"></i>\
 			</button>\
 			<div class="navbarDropdown-Content">\
-				<a href="#">Gallery</a>\
-			<hr class="nav">\
 				<a href="#">Timeline</a>\
 			<hr class="nav">\
 				<a href="/legacy/">Legacy Site</a>\
