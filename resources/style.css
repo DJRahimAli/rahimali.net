@@ -212,6 +212,7 @@ body {
 	background-color: #d1496c;
 	border:2px solid #ad3362;
 	margin: 4px auto;
+	font-size: 17px;
 }
 
 .content-background {
@@ -290,7 +291,7 @@ body {
 }
 
 .navbarDropdown .navbarDropdown-Button {
-	font-size: 16px;  
+	font-size: 16px;
 	border: none;
 	outline: none;
 	color: white;
