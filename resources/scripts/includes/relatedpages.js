@@ -7,7 +7,13 @@ for (var i = 1; i < relatedpagesLength; i++) {
 	htmlString += ', <a href="' + relatedpages[i][0] + '">' + relatedpages[i][1] + '</a>'
 }
 
-document.write('<div class="prevent-select box" style="margin-bottom: 8px;">\
+function includeRelatedPages() {
+	document.getElementById("relatedpages").innerHTML = '\
+	\
+<div class="prevent-select box" style="margin-bottom: 8px;">\
 	<h2>Related pages:</h2>\
 	<div class="content-box"><p style="margin: 0px;">' + htmlString + '</p></div>\
-</div>');
+</div>\
+	\
+	';
+}

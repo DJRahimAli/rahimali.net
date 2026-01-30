@@ -1,4 +1,6 @@
-document.write('<!-- Top of page -->\
+function includeHeader() {
+	document.getElementById("header").innerHTML = '\
+	\
 <div style="padding-top: 8px;">\
 	<img src="/assets/images/style/sLogo.png" class="prevent-select logo">\
 	<!-- Navigation bar -->\
@@ -18,4 +20,7 @@ document.write('<!-- Top of page -->\
 			</div>\
 		</div>\
 	</div>\
-</div>');
+</div>\
+	\
+	';
+}
