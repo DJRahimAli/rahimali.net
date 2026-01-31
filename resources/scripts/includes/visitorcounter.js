@@ -10,3 +10,5 @@ function includeVisitorCounter() {
 	\
 	';
 }
+
+includeVisitorCounter();
