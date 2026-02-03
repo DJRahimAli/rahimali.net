@@ -1,13 +1,13 @@
-const relatedpagesLength = relatedpages.length;
+function includeRelatedPages(relatedpages = [ ["Unset", "NameUnset"] ]) {
+	const relatedpagesLength = relatedpages.length;
 
-var htmlString = '<a href="' + relatedpages[0][0] + '">' + relatedpages[0][1] + '</a>'
+	var htmlString = '<a href="' + relatedpages[0][0] + '">' + relatedpages[0][1] + '</a>'
 
-// add more relatedpages to the htmlString if there are more than one in the array (var i = 1;)
-for (var i = 1; i < relatedpagesLength; i++) {
-	htmlString += ', <a href="' + relatedpages[i][0] + '">' + relatedpages[i][1] + '</a>'
-}
+	// add more relatedpages to the htmlString if there are more than one in the array (var i = 1;)
+	for (var i = 1; i < relatedpagesLength; i++) {
+		htmlString += ', <a href="' + relatedpages[i][0] + '">' + relatedpages[i][1] + '</a>'
+	}
 
-function includeRelatedPages() {
 	document.getElementById("relatedpages").innerHTML = '\
 	\
 <div class="prevent-select box" style="margin-bottom: 8px;">\
@@ -18,4 +18,5 @@ function includeRelatedPages() {
 	';
 }
 
-includeRelatedPages();
+//function call commented out so it can be called elsewhere for the parameters to be changed
+//includeRelatedPages();

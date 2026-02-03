@@ -9,9 +9,6 @@
 	</head>
 	
 	<body style="display: flex; flex-direction: column; padding: 0px 4px;">
-			<!-- Global variables -->
-			<script type="text/javascript" src="/resources/scripts/globals.js"></script>
-			
 			<!-- Top of page -->
 			<div id="header"></div>
 			<script type="text/javascript" src="/resources/scripts/includes/header.js"></script>
@@ -36,15 +33,13 @@
 			</div>
 			
 			<!-- Related pages -->
-			<script>
-				relatedpages = [
-					["/blog", "Blog"],
-					["/gallery", "Gallery"],
-					["/portfolio", "Portfolio"]
-				];
-			</script>
 			<div id="relatedpages"></div>
 			<script type="text/javascript" src="/resources/scripts/includes/relatedpages.js"></script>
+			<script>includeRelatedPages([
+				["/blog", "Blog"],
+				["/gallery", "Gallery"],
+				["/portfolio", "Portfolio"]
+			]);</script>
 			
 			<!-- Visitor counter -->
 			<div style="margin-top: auto; margin-bottom: 8px;">
