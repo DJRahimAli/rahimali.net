@@ -1,7 +1,7 @@
 function includeHeader() {
 	document.getElementById("header").innerHTML = '\
 	\
-<div style="padding-top: 8px;">\
+<div style="margin-top: 8px;">\
 	<img src="/assets/images/style/sLogo.png" class="prevent-select logo">\
 	<!-- Navigation bar -->\
 	<div class="prevent-select navbar">\
