@@ -1,7 +1,17 @@
 /* init */
 @font-face{
     font-family: m6x11;
-    src: url("/assets/fonts/m6x11plus.ttf");
+    src: url("/assets/fonts/managore/m6x11plus.ttf");
+}
+
+@font-face{
+    font-family: m5x7;
+    src: url("/assets/fonts/managore/m5x7.ttf");
+}
+
+@font-face{
+    font-family: m3x6;
+    src: url("/assets/fonts/managore/m3x6.ttf");
 }
 
 h1, h2, h3, h4, h5, h6 {
