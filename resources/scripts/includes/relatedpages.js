@@ -11,7 +11,9 @@ function includeRelatedPages(relatedpages = [ ["Unset", "NameUnset"] ]) {
 	document.getElementById("relatedpages").innerHTML = '\
 	\
 <div class="prevent-select box" style="margin-bottom: 8px;">\
-	<h2>Related pages:</h2>\
+	<a class="heading" href="#relatedpages">\
+		<h2>Related pages:</h2>\
+	</a>\
 	<div class="content-box"><p style="margin: 0px;">' + htmlString + '</p></div>\
 </div>\
 	\

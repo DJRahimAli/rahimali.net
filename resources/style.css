@@ -86,13 +86,12 @@ a:active {
 	text-decoration: underline;
 }
 
-a.blog {
+a.heading {
 	color: #ffffff;
 	text-decoration: none;
-	text-shadow: 0.5px 0.5px 0px rgba(0,0,0,0.35);
 }
 
-a.blog:active {
+a.heading:active {
 	color: rgb(255, 50, 50);
 }
 
