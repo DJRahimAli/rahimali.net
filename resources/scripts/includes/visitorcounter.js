@@ -6,7 +6,7 @@ function includeVisitorCounter() {
 		<h2 class="prevent-select">Total page views:</h2>\
 	</a>\
 	<div class="content-box">\
-		<p id="stats"></p>\
+		<p id="stats" style="margin: 2px 0px;"></p>\
 	</div>\
 </div>\
 	\
