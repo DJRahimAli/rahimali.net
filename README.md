@@ -1,4 +1,4 @@
-# rahimali.net
+# [rahimali.net](https://rahimali.net)
 A website by a fox. 
 
 # Resources used:
