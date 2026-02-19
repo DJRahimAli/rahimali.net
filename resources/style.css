@@ -142,6 +142,10 @@ html, body {
 	scrollbar-color: #b2669a #1b1b1b;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 /*
 div.scroller {
 	scrollbar-color: pink lightblue;
