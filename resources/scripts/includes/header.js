@@ -16,7 +16,7 @@ function includeHeader() {
 			<div class="navbarDropdown-Content">\
 				<a href="/portfolio">Portfolio</a>\
 			<hr class="nav">\
-				<a href="/legacy/">Legacy Site</a>\
+				<a href="https://legacy.rahimali.net">Legacy Site</a>\
 			</div>\
 		</div>\
 	</div>\
