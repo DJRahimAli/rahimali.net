@@ -107,6 +107,7 @@ a.heading:active {
 	user-select: text; /* Standard syntax */
 }
 
+/* animations */
 @keyframes shake {
   0% { transform: translate(1px, 1px); }
   10% { transform: translate(-1px, -2px); }
@@ -119,6 +120,66 @@ a.heading:active {
   80% { transform: translate(-1px, -1px); }
   90% { transform: translate(1px, 2px); }
   100% { transform: translate(1px, -2px); }
+}
+
+@keyframes slideInUp {
+	from {
+		transform: translateY(100%);
+		/*opacity: 0;*/
+	}
+	to {
+		transform: translateY(0);
+		/*opacity: 1;*/
+	}
+}
+
+.slideInUp {
+	animation: slideInUp 1s ease-out;
+}
+
+@keyframes slideInDown {
+	from {
+		transform: translateY(-100%);
+		/*opacity: 0;*/
+	}
+	to {
+		transform: translateY(0);
+		/*opacity: 1;*/
+	}
+}
+
+.slideInDown {
+	animation: slideInDown 1s ease-out;
+}
+
+@keyframes slideInLeft {
+	from {
+		transform: translateX(-100%);
+		/*opacity: 0;*/
+	}
+	to {
+		transform: translateX(0);
+		/*opacity: 1;*/
+	}
+}
+
+.slideInLeft {
+	animation: slideInLeft 2s ease-out;
+}
+
+@keyframes slideInRight {
+	from {
+		transform: translateX(100%);
+		/*opacity: 0;*/
+	}
+	to {
+		transform: translateX(0);
+		/*opacity: 1;*/
+	}
+}
+
+.slideInRight {
+	animation: slideInRight 2s ease-out;
 }
 
 /* background */
