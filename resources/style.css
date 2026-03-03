@@ -164,7 +164,7 @@ a.heading:active {
 }
 
 .slideInLeft {
-	animation: slideInLeft 2s ease-out;
+	animation: slideInLeft 1s ease-out;
 }
 
 @keyframes slideInRight {
@@ -179,7 +179,7 @@ a.heading:active {
 }
 
 .slideInRight {
-	animation: slideInRight 2s ease-out;
+	animation: slideInRight 1s ease-out;
 }
 
 /* background */
