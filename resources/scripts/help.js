@@ -7,7 +7,7 @@ let helped = false;
 
 //preload image
 tempImg = new Image();
-tempImg.src="https://static.wikia.nocookie.net/thecreaturecases/images/c/c0/Kit_Casey_Best_Picture.png/revision/latest?cb=20230806011008";
+tempImg.src="https://static.wikia.nocookie.net/thecreaturecases/images/c/c0/Kit_Casey_Best_Picture.png";
 
 function createHelper() {
 	let helperElement = document.createElement('div');
@@ -26,7 +26,7 @@ function includeHelper() {
 <div class="tooltip" style="max-width: 240px; margin-right: 16px; margin-bottom: 2px;">\
 	<p style="margin: 0px;">Why don&apos;t you click, drag and use keyboard arrows?</p>\
 </div>\
-<img style="display: flex; width: 248px; height: auto; float: right; image-rendering: auto;" src="https://static.wikia.nocookie.net/thecreaturecases/images/c/c0/Kit_Casey_Best_Picture.png/revision/latest?cb=20230806011008">\
+<img style="display: flex; width: 248px; height: auto; float: right; image-rendering: auto;" src="https://static.wikia.nocookie.net/thecreaturecases/images/c/c0/Kit_Casey_Best_Picture.png">\
 	\
 	';
 }
