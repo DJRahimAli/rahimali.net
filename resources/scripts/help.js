@@ -1,6 +1,6 @@
-let helpString = "help";
+const helpString = "help";
+const helpStringLength = helpString.length;
 let helpStringCurrent = "";
-let helpStringLength = helpString.length;
 
 let helpkeyPressed = false;
 let helped = false;

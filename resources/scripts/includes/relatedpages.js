@@ -1,7 +1,7 @@
 function includeRelatedPages(relatedpages = [ ["Unset", "NameUnset", undefined] ]) {
 	const relatedpagesLength = relatedpages.length;
 
-	var htmlString = '<a href="' + relatedpages[0][0] + '">' + relatedpages[0][1];
+	let htmlString = '<a href="' + relatedpages[0][0] + '">' + relatedpages[0][1];
 	if (relatedpages[0][2] == undefined) {
 		htmlString += '</a>';
 	}
@@ -9,8 +9,8 @@ function includeRelatedPages(relatedpages = [ ["Unset", "NameUnset", undefined] 
 		htmlString += ' <i class="' + relatedpages[0][2] + '" style="color: white;"></i></a>';
 	}
 
-	// add more relatedpages to the htmlString if there are more than one in the array (var i = 1;)
-	for (var i = 1; i < relatedpagesLength; i++) {
+	// add more relatedpages to the htmlString if there are more than one in the array (let i = 1;)
+	for (let i = 1; i < relatedpagesLength; i++) {
 		htmlString += ', <a href="' + relatedpages[i][0] + '">' + relatedpages[i][1];
 		if (relatedpages[i][2] == undefined) {
 			htmlString += '</a>';
