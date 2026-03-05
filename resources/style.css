@@ -442,7 +442,7 @@ body {
 		min(100%,var(--p) + var(--h)*tan(var(--a)/2)) 100%,
 		var(--p) calc(100% + var(--h)),
 		max(0%	,var(--p) - var(--h)*tan(var(--a)/2)) 100%);
-	border-image: fill 0//var(--h) 0
+	border-image: fill 0/0/var(--h) 0
 		conic-gradient(#ad3362 0 0); /* the border color */
 	position: relative;
 }
