@@ -16,7 +16,12 @@
 		<title>Furnace (chiptune tracker) is really cool</title>
 		<link href="https://rahimali.net/blog/post-1/furnace-chiptune-tracker-is-really-cool"/>
 		<id>https://rahimali.net/blog/post-1/furnace-chiptune-tracker-is-really-cool</id>
-		<summary>Blog post summary test.</summary>
+		<summary>
+			Blog post summary test.
+		</summary>
+		<content>
+			Blog post test.
+		</content>
 		<updated>2026-07-10T12:00:00Z</updated>
 	</entry>
 </feed>
