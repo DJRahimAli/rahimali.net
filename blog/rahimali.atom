@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Rahim Ali's Blog</title>
-    <link href="https://rahimali.net/blog/"/>
-    <updated>2026-03-06T12:18:00Z</updated>
-    <author>
-        <name>Rahim Ali</name>
-        <uri>https://rahimali.net</uri>
-    </author>
-    <id>https://rahimali.net</id>
+	<title>Rahim Ali's Blog</title>
+	<link href="https://rahimali.net/"/>
+	<id>https://rahimali.net</id>
+	<author>
+		<name>Rahim Ali</name>
+		<uri>https://rahimali.net</uri>
+	</author>
+	<rights> © 2026 Rahim Ali </rights>
+	<link rel="self" href="https://rahimali.net/blog/rahimali.atom"/>
+	<icon>https://rahimali.net/favicon.png</icon>
+	<updated>2026-03-06T12:18:00Z</updated>
 
-    <entry>
-    <title>Furnace (chiptune tracker) is really cool</title>
-    <link href="https://rahimali.net/blog/post-1/furnace-chiptune-tracker-is-really-cool"/>
-    <id>https://rahimali.net</id>
-    <updated>2026-07-10T12:00:00Z</updated>
-        <content>Blog post test.</content>
-        <summary>Blog post summary test.</summary>
-    </entry>
+	<entry>
+		<title>Furnace (chiptune tracker) is really cool</title>
+		<link href="https://rahimali.net/blog/post-1/furnace-chiptune-tracker-is-really-cool"/>
+		<id>https://rahimali.net/blog/post-1/furnace-chiptune-tracker-is-really-cool</id>
+		<content>Blog post test.</content>
+		<summary>Blog post summary test.</summary>
+		<updated>2026-07-10T12:00:00Z</updated>
+	</entry>
 </feed>
