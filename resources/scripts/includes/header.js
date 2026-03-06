@@ -6,7 +6,6 @@ function includeHeader() {
 	<!-- Navigation bar -->\
 	<div class="prevent-select navbar">\
 		<a href="/">Home</a>\
-		<a href="/blog">Blog</a>\
 		<div class="navbarDropdown">\
 			<button class="navbarDropdown-Button" style="padding-left: 0px; padding-right: 0px;">\
 				<a href="/gallery">Gallery</a>\
@@ -19,6 +18,7 @@ function includeHeader() {
 				<a href="/gallery/music">Music</a>\
 			</div>\
 		</div>\
+		<a href="/blog">Blog</a>\
 		<a href="/about">About</a>\
 		<div class="navbarDropdown">\
 			<button class="navbarDropdown-Button">\
