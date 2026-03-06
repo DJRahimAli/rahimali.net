@@ -408,10 +408,10 @@ body {
 
 .navbarDropdown-Content a {
 	float: none;
-	padding: 12px 12px;
+	padding: 8px 4px;
 	text-decoration: none;
 	display: block;
-	text-align: left;
+	text-align: center;
 }
 
 .navbarDropdown-Content a:hover {
