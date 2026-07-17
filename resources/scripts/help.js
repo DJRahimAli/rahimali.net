@@ -3,7 +3,7 @@ const helpStringLength = helpString.length;
 let helpStringCurrent = "";
 
 let helpkeyPressed = false;
-let helped = false;
+let helping = false;
 
 function createHelper() {
 	let helperElement = document.createElement('div');
@@ -14,6 +14,12 @@ function createHelper() {
 	//helperElement.style.position = "absolute";
 	document.body.appendChild(helperElement);
 	includeHelper();
+	//remove helper when animation is finished
+	Promise.all(helperElement.getAnimations().map((animation) => animation.finished)).then(() => {
+		helperElement.remove();
+		helping = false;
+		console.log("helped");
+	},);
 }
 
 function includeHelper() {
@@ -28,21 +34,21 @@ function includeHelper() {
 }
 
 function getHelp() {
-    if (!helped) {
+    if (!helping) {
 		//wait until image loaded
 		let tempImg = new Image();
 		tempImg.onload = function() {
 			createHelper();
-			//console.log("helped");
+			console.log("helping");
 		}
 		tempImg.src = "https://static.wikia.nocookie.net/thecreaturecases/images/c/c0/Kit_Casey_Best_Picture.png";
     }
     helpkeyPressed = false;
-    helped = true;
+    helping = true;
 }
 
 document.addEventListener('keydown', (event) => {
-	if (!helped) {
+	if (!helping) {
 		if (!helpkeyPressed && /^[A-Za-z]$/.test(event.key)) {
 			helpStringCurrent += event.key;
 			if (helpStringCurrent.length >= helpStringLength) {
@@ -59,10 +65,8 @@ document.addEventListener('keydown', (event) => {
 });
 
 document.addEventListener('keyup', (event) => {
-	if (!helped) {
-		if (/^[A-Za-z]$/.test(event.key)) {
-			//console.log('Key is up:', event.key);
-			helpkeyPressed = false;
-		}
+	if (/^[A-Za-z]$/.test(event.key)) {
+		//console.log('Key is up:', event.key);
+		helpkeyPressed = false;
 	}
 });
