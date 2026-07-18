@@ -48,25 +48,23 @@ function getHelp() {
 }
 
 document.addEventListener('keydown', (event) => {
-	if (!helping) {
-		if (!helpkeyPressed && /^[A-Za-z]$/.test(event.key)) {
-			helpStringCurrent += event.key;
-			if (helpStringCurrent.length >= helpStringLength) {
-				helpStringCurrent = helpStringCurrent.substring(helpStringCurrent.length - helpStringLength);
-				if (helpStringCurrent.toLowerCase() == helpString) {
-					getHelp();
-				}
+	if (event.repeat) return;
+	if (helping) return;
+	if (/^[A-Za-z]$/.test(event.key)) {
+		helpStringCurrent += event.key;
+		if (helpStringCurrent.length >= helpStringLength) {
+			helpStringCurrent = helpStringCurrent.substring(helpStringCurrent.length - helpStringLength);
+			if (helpStringCurrent.toLowerCase() == helpString) {
+				getHelp();
 			}
-			console.log(helpStringCurrent);
-			//console.log('Key is down:', event.key);
-			helpkeyPressed = true;
 		}
+		console.log(helpStringCurrent);
+		//console.log('Key is pressed:', event.key);
 	}
 });
 
 document.addEventListener('keyup', (event) => {
 	if (/^[A-Za-z]$/.test(event.key)) {
 		//console.log('Key is up:', event.key);
-		helpkeyPressed = false;
 	}
 });
