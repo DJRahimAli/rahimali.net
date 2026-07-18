@@ -38,61 +38,27 @@ loadSound(soundName);
 //Keys
 let keys = false;
 
-let pressed = [
-	[0, 0, 0, 0]
-];
-
 document.addEventListener("click", event => {
     keys = true;
 });
 
-document.addEventListener("keydown", event => {
-	if (event.key.startsWith("Arrow") && keys) {
-		event.preventDefault();
-		switch(event.key) {
-			case "ArrowUp":
-				if (!pressed[0]) {
-					playSound(soundName, -100);
-				}
-				pressed[0] = 1;
-				break;
-			case "ArrowDown":
-				if (!pressed[1]) {
-					playSound(soundName, -500);
-				}
-				pressed[1] = 1;
-				break;
-			case "ArrowLeft":
-				if (!pressed[2]) {
-					playSound(soundName, -300);
-				}
-				pressed[2] = 1;
-				break;
-			case "ArrowRight":
-				if (!pressed[3]) {
-					playSound(soundName, 200);
-				}
-				pressed[3] = 1;
-				break;
-		}
-	}
-});
-
-document.addEventListener("keyup", event => {
+document.addEventListener('keydown', (event) => {
+	if (event.repeat) return;
+	if (!keys) return;
 	if (event.key.startsWith("Arrow")) {
 		event.preventDefault();
 		switch(event.key) {
 			case "ArrowUp":
-					pressed[0] = 0;
+				playSound(soundName, -100);
 				break;
 			case "ArrowDown":
-					pressed[1] = 0;
+				playSound(soundName, -500);
 				break;
 			case "ArrowLeft":
-					pressed[2] = 0;
+				playSound(soundName, -300);
 				break;
 			case "ArrowRight":
-					pressed[3] = 0;
+				playSound(soundName, 200);
 				break;
 		}
 	}
