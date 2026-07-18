@@ -2,7 +2,6 @@ const helpString = "help";
 const helpStringLength = helpString.length;
 let helpStringCurrent = "";
 
-let helpkeyPressed = false;
 let helping = false;
 
 function createHelper() {
@@ -43,7 +42,6 @@ function getHelp() {
 		}
 		tempImg.src = "https://static.wikia.nocookie.net/thecreaturecases/images/c/c0/Kit_Casey_Best_Picture.png";
     }
-    helpkeyPressed = false;
     helping = true;
 }
 
@@ -63,8 +61,8 @@ document.addEventListener('keydown', (event) => {
 	}
 });
 
-document.addEventListener('keyup', (event) => {
+/*document.addEventListener('keyup', (event) => {
 	if (/^[A-Za-z]$/.test(event.key)) {
 		//console.log('Key is up:', event.key);
 	}
-});
+});*/
