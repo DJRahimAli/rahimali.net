@@ -11,13 +11,13 @@ function includeHeader() {
 				Gallery <i class="fa fa-angle-down"></i>\
 			</button>\
 			<div class="navbarDropdown-Content">\
+				<a href="/gallery">Everything</a>\
+			<hr class="nav">\
 				<a href="/gallery/art">Art</a>\
 			<hr class="nav">\
 				<a href="/gallery/games">Games</a>\
 			<hr class="nav">\
 				<a href="/gallery/music">Music</a>\
-			<hr class="nav">\
-				<a href="/gallery">All</a>\
 			</div>\
 		</div>\
 		<a href="/blog">Blog</a>\
