@@ -262,7 +262,7 @@ body {
 .main {
 	width: auto;
 	max-width: fit-content;
-	padding: 5px 10px 8px 10px;
+	padding: 5px 15px 12px 10px;
 	background-color: #b2669a;
 	border:4px solid #76428a;
 	margin: 8px auto;
@@ -272,7 +272,7 @@ body {
 .box {
 	width: auto;
 	max-width: fit-content;
-	padding: 0px 12px;
+	padding: 0px 12px 2px 12px;
 	background-color: #b2669a;
 	border:4px solid #76428a;
 	margin: 4px auto;
