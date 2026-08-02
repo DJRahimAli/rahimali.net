@@ -82,7 +82,7 @@ btn.addEventListener("mouseover", function() {
     if (btnHover) return;
 	if (!keys) return;
 	playSound("button", btnNotes[ btnNotesCurrent[0] ][0]);
-	progressNotesCurrent()
+	progressNotesCurrent();
 	btnHover = true;
 });
 
