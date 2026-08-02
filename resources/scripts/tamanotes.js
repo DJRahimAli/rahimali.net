@@ -18,17 +18,15 @@ function loadSound(name,success,err) {
 	request.send();
 }
 
-function playSound(name, pitch = 0, param) {
-	param = param || {};
+function playSound(name, pitch = 0, loop = false) {
 	let s = SOUNDS[name];
 	let source = audioContext.createBufferSource();
 	source.buffer = s;
-	if (param.loop) {
-		source.loop = true;
-	}
 
 	source.connect(audioContext.destination);
 	source.detune.value = pitch;
+	source.loop = loop;
+	
 	source.start(0);
 }
 
