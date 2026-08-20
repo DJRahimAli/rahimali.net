@@ -11,16 +11,14 @@ function includeRelatedPages(relatedpages = [ ["Unset", "NameUnset", undefined] 
 		: htmlString + ' <i class="' + relatedpages[i][2] + '" style="color: white;"></i></a>';
 	}
 
-	document.getElementById("relatedpages").innerHTML = '\
-	\
-<div class="prevent-select box" style="margin-bottom: 8px;">\
-	<a class="heading" href="#relatedpages">\
-		<h2>Related pages:</h2>\
-	</a>\
-	<div class="content-box"><p style="margin: 0px;">' + htmlString + '</p></div>\
-</div>\
-	\
-	';
+	document.getElementById("relatedpages").innerHTML = `
+<div class="prevent-select box" style="margin-bottom: 8px;">
+	<a class="heading" href="#relatedpages">
+		<h2>Related pages:</h2>
+	</a>
+	<div class="content-box"><p style="margin: 0px;">` + htmlString + `</p></div>
+</div>
+	`;
 }
 
 //function call commented out so it can be called elsewhere for the parameters to be changed
