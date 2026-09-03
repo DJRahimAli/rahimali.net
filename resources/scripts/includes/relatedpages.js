@@ -16,7 +16,7 @@ function includeRelatedPages(relatedpages = [ ["Unset", "NameUnset", undefined] 
 	<a class="heading" href="#relatedpages">
 		<h2>Related pages:</h2>
 	</a>
-	<div class="content-box"><p style="margin: 0px;">` + htmlString + `</p></div>
+	<div class="content-box"><p style="margin: 0px;">${htmlString}</p></div>
 </div>
 	`;
 }
