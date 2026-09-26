@@ -33,7 +33,7 @@ function includeHeader() {
 		</div>
 	</div>
 </div>
-	`;
+`;
 }
 
 includeHeader();

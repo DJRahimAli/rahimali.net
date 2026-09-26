@@ -18,7 +18,7 @@ function includeRelatedPages(relatedpages = [ ["Unset", "NameUnset", undefined] 
 	</a>
 	<div class="content-box"><p style="margin: 0px;">${htmlString}</p></div>
 </div>
-	`;
+`;
 }
 
 //function call commented out so it can be called elsewhere for the parameters to be changed

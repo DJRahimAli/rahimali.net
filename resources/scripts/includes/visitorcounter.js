@@ -8,7 +8,7 @@ function includeVisitorCounter() {
 		<p id="stats" style="margin: 2px 0px;"></p>
 	</div>
 </div>
-	`;
+`;
 }
 
 includeVisitorCounter();
