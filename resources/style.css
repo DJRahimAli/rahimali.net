@@ -221,11 +221,6 @@ html, body {
 	scrollbar-color: #b2669a #1b1b1b;
 }
 
-/*
-div.scroller {
-	scrollbar-color: pink lightblue;
-}*/
-
 body {
 	--PI: 3.1415;
 	--UNIT: 1px; /* we need to use the same unit for all calculations. Keep variables unit-less as long as possible, and only apply units when assigning to css properties */
